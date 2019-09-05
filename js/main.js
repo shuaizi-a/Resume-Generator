@@ -11,7 +11,7 @@ function writeCss(prefix, code, fn) {
       window.clearInterval(id)
       fn && fn.call()
     }
-  }, 0)
+  }, 35)
 }
 
 
@@ -26,7 +26,7 @@ function writeMarkdown(markdown, fn) {
       window.clearInterval(id)
       fn && fn.call()
     }
-  }, 0)
+  }, 35)
 }
 
 var css1 = `/* 
@@ -122,7 +122,7 @@ var md = `
 #### 简历生成器
 + 关键词: JavaScript, 过渡动画, 盒阴影
 + 项目介绍: 该项目实现了一个 Markdown 简历的制作过程，利用 CSS3 实现过渡、动画、阴影和弹性布局等。
-+ [源码链接](https://github.com/shuaizi-a/jianli/tree/master) | [预览链接](https://shuaizi-a.github.io/jianli/index.html)
++ [源码链接](https://github.com/shuaizi-a/Resume-Generator/tree/master) | [预览链接](https://shuaizi-a.github.io/Resume-Generator/index.html)
 
 #### 涂鸦画板
 + 关键词: HTML5, Canvas, ES6, JavaScript
